@@ -20,7 +20,7 @@ body {
 .header_logo {
   flex-wrap: wrap;
   float: left;
-  width: 70%;
+  width: auto;
 }
 .name {
   font-size: 28px;
