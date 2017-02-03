@@ -1,0 +1,72 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  color: #7d97ad;
+  box-sizing: content-box;
+}
+.main {
+  width: 100%;
+  margin: 2px;
+  border: 1px black solid;
+}
+.project1img, .project2img, .project3img {
+  width: 100%;
+  border: 1px black solid;
+}
+.header {
+  display: inline;
+  width: 100%;
+}
+.header_logo {
+  flex-wrap: wrap;
+  float: left;
+  width: auto;
+}
+.name {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 1px;
+  width: 100%;
+}
+.jobtitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: right;
+  width: 100%;
+}
+.featured {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 100%;
+}
+.projects {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.project1, .project2, .project3 {
+  padding: 5px;
+}
+@media screen and (max-width: 460px) {
+  .main {
+    padding: 0;
+  }
+  .projects {
+    flex-wrap: wrap;
+  }
+  .featured {
+    text-align: right;
+    padding: 5px
+  }
+  .project1img, .project2img, .project3img {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+}
